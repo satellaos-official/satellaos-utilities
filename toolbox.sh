@@ -24,35 +24,35 @@ read -p "Enter the number of your choice (1-8): " choice
 case $choice in
   1)
     TOOL_NAME="KVM-Tool.sh"
-    URL="https://raw.githubusercontent.com/satellaos-official/satellaos-debian-utilities/refs/heads/main/tools/KVM-Tool.sh"
+    URL="https://raw.githubusercontent.com/satellaos-official/satellaos-utilities/refs/heads/main/tools/KVM-Tool.sh"
     ;;
   2)
     TOOL_NAME="PWA-Installer.sh"
-    URL="https://raw.githubusercontent.com/satellaos-official/satellaos-debian-utilities/refs/heads/main/tools/PWA-Installer.sh"
+    URL="https://raw.githubusercontent.com/satellaos-official/satellaos-utilities/refs/heads/main/tools/PWA-Installer.sh"
     ;;
   3)
     TOOL_NAME="PWA-Remover.sh"
-    URL="https://raw.githubusercontent.com/satellaos-official/satellaos-debian-utilities/refs/heads/main/tools/PWA-Remover.sh"
+    URL="https://raw.githubusercontent.com/satellaos-official/satellaos-utilities/refs/heads/main/tools/PWA-Remover.sh"
     ;;
   4)
     TOOL_NAME="Papirus-color-changer-v2.sh"
-    URL="https://raw.githubusercontent.com/satellaos-official/satellaos-debian-utilities/refs/heads/main/tools/Papirus-color-changer/Papirus-color-changer-v2.sh"
+    URL="https://raw.githubusercontent.com/satellaos-official/satellaos-utilities/refs/heads/main/tools/Papirus-color-changer/Papirus-color-changer-v2.sh"
     ;;
   5)
     TOOL_NAME="config-backup.sh"
-    URL="https://raw.githubusercontent.com/satellaos-official/satellaos-debian-utilities/refs/heads/main/tools/config-backup.sh"
+    URL="https://raw.githubusercontent.com/satellaos-official/satellaos-utilities/refs/heads/main/tools/config-backup.sh"
     ;;
   6)
     TOOL_NAME="config-restore.sh"
-    URL="https://raw.githubusercontent.com/satellaos-official/satellaos-debian-utilities/refs/heads/main/tools/config-restore.sh"
+    URL="https://raw.githubusercontent.com/satellaos-official/satellaos-utilities/refs/heads/main/tools/config-restore.sh"
     ;;
   7)
     TOOL_NAME="fonts-v4.sh"
-    URL="https://raw.githubusercontent.com/satellaos-official/satellaos-debian-utilities/refs/heads/main/tools/fonts-v4.sh"
+    URL="https://raw.githubusercontent.com/satellaos-official/satellaos-utilities/refs/heads/main/tools/fonts-v4.sh"
     ;;
   8)
     TOOL_NAME="satellaos-program-installer-tool-5.2.0.sh"
-    URL="https://raw.githubusercontent.com/satellaos-official/satellaos-debian-utilities/refs/heads/main/tools/satellaos-program-installer-tool-5.2.0.sh"
+    URL="https://raw.githubusercontent.com/satellaos-official/satellaos-utilities/refs/heads/main/tools/satellaos-program-installer-tool-5.2.0.sh"
     ;;
   *)
     echo "Invalid choice. Exiting."
